@@ -1,0 +1,18 @@
+{
+    "content_scripts": [{
+        "exclude_globs": [],
+        "include_globs": ["*"],
+        "js": [
+            "kissmanga.user.js"
+        ],
+        "matches": [
+            "http://kissmanga.com/*"
+        ],
+        "run_at": "document_end"
+    }],
+    "converted_from_user_script": true,
+    "description": "Fit double pages to 100% viewport width",
+    "manifest_version": 2,
+    "name": "Kissmanga autofit",
+    "version": "1"
+}
