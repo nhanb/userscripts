@@ -6,7 +6,8 @@
             "kissmanga.user.js"
         ],
         "matches": [
-            "http://kissmanga.com/*"
+            "http://kissmanga.com/*",
+            "http://truyen.vnsharing.net/Truyen/*"
         ],
         "run_at": "document_end"
     }],
